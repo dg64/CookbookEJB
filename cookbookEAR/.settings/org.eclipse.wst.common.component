@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="cookbookEAR">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="cookbookEJB.jar" deploy-path="/" handle="module:/resource/cookbookEJB/cookbookEJB">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="cookbookEJBClient.jar" deploy-path="/" handle="module:/resource/cookbookEJBClient/cookbookEJBClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jee_utilities.jar" deploy-path="/lib" handle="module:/resource/jee_utilities/jee_utilities">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="cookbookServlets.war" deploy-path="/" handle="module:/resource/cookbookServlets/cookbookServlets">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

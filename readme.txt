@@ -1,0 +1,4 @@
+- with pgadmin create a database cookbookdb
+- import the database with the command psql cookbookdb < cookbookdb.sql
+- in eclipse, if not present, install the plugin for glassfish
+- import the projects
