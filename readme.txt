@@ -1,4 +1,10 @@
 - with pgadmin create a database cookbookdb
 - import the database with the command psql cookbookdb < cookbookdb.sql
+- download the jdbc driver for postgresql
+- copy the jdbc driver in /glassfish5/glassfish/lib
+- in glassfish configure the connection pool Cookbokdb_pgsqlPool
+- in glassfish configure the jdbc resource jdbc/__Cookbookdb_pgsqlPool that references the connection pool previously created
 - in eclipse, if not present, install the plugin for glassfish
+- in eclipse configure the jdbc driver for postgresql
+- in eclipse create a database cookbookdb-pgsql
 - import the projects
